@@ -1,6 +1,5 @@
-package com.cydeo.banksimulation.entity;
+package com.cydeo.banksimulation.model;
 
-import com.cydeo.banksimulation.enums.AccountType;
 import lombok.Builder;
 import lombok.Data;
 
