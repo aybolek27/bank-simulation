@@ -28,4 +28,8 @@ public class AccountRepository {
         return accountList.stream().filter(account -> account.getId().equals(accountId)).findAny().orElseThrow(()->new RecorNotFoundException("This account is not in database"));
 
     }
+
+    public void deleteAccount() {
+       // accountList.stream().
+    }
 }

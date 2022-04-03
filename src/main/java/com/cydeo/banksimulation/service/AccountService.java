@@ -6,6 +6,7 @@ import com.cydeo.banksimulation.enums.AccountType;
 import java.math.BigDecimal;
 import java.util.Date;
 import java.util.List;
+import java.util.UUID;
 
 public interface AccountService {
 
@@ -14,4 +15,5 @@ public interface AccountService {
 
     List<Account> listAllAccount();
 
+    void deleteAccount(UUID account);
 }
